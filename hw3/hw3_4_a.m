@@ -10,7 +10,7 @@ for i  = 1:8
     S_temp = cell(5,1);
     for j = 1:5
         T = find(trial(j,i).spikes);
-        S_temp{j} = T/1000;
+        S_temp{j} = T;
     end
     switch i
          case 1

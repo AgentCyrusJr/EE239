@@ -25,7 +25,6 @@ for s = 1:numSpikeTrains
 end
 
 xlabel('Time (ms)');
-xlim([0 500]);
 ylim([0 offset+mark+gap+pad]);
 set(gca, 'YTickLabel', []);
 
